@@ -20,7 +20,7 @@
 //******   Parametros do sistema ********************//
 #define NN 100          // numero of IF
 #define N 2             // numero de equacoes
-#define h 0.0001          // passo de integracao
+#define h 0.01          // passo de integracao
 #define transient 5000     // ms
 #define NMD 100000 //numero maximo de disparo de um neuronio: 10^4
 #define conexMAX NN   // each neuron max conections number
