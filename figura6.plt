@@ -12,4 +12,3 @@ plot "POK_CV_F_N100_p_gexc_g1_gel0.1_-8.dat" u 1:2:4 with image t"
 set style line 1 lc rgb "white" lt 1 lw 8 pt 7 ps 3.0
 set terminal postscript eps enhanced color font 'Helvetica,25'
 set output 'Fig6.eps'
-replot "linha.dat" u 1:2  with linespoints ls 1 t"
