@@ -1,7 +1,7 @@
 #!/bin/bash
 
 for i in {1..8}; do 
- qsub gcc -O3 -o x$i.x IandF_johann_g4_eletric_bash.c -lm
+ qsub  -O3 -o x$i.x IandF_johann_g4_eletric_bash.c -lm
   echo 
 done
 
