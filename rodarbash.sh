@@ -5,7 +5,6 @@
 #$ -S /bin/bash
 #
 
-source /opt/intel/Compiler/11.1/064/bin/iccvars.sh intel64
 icc <code.c> -o  	IandF_johann_g4_eletric_bash1.c
  ./ 	IandF_johann_g4_eletric_bash1.c
  icc <code.c> -o  	IandF_johann_g4_eletric_bash2.c
@@ -22,4 +21,4 @@ icc <code.c> -o  	IandF_johann_g4_eletric_bash1.c
  ./ 	IandF_johann_g4_eletric_bash7.c
  icc <code.c> -o  	IandF_johann_g4_eletric_bash8.c
  ./ 	IandF_johann_g4_eletric_bash8.c
- end
+ 
